@@ -1,0 +1,14 @@
+2025-03-15 18:12:51 [main] INFO  api.test.UserTests -*************** creating user *******************
+2025-03-15 18:12:53 [main] INFO  api.test.UserTests -*************** user creatd *******************
+2025-03-15 18:12:53 [main] INFO  api.test.UserTests -*************** getting user *******************
+2025-03-15 18:12:55 [main] INFO  api.test.UserTests -*************** retrieved user *******************
+2025-03-15 18:12:55 [main] INFO  api.test.UserTests -*************** updating user *******************
+2025-03-15 18:12:57 [main] INFO  api.test.UserTests -*************** user updated *******************
+2025-03-15 18:12:57 [main] INFO  api.test.UserTests -*************** deleting user *******************
+2025-03-15 18:18:36 [main] INFO  api.test.UserTests -*************** creating user *******************
+2025-03-15 18:18:39 [main] INFO  api.test.UserTests -*************** user creatd *******************
+2025-03-15 18:18:39 [main] INFO  api.test.UserTests -*************** getting user *******************
+2025-03-15 18:18:41 [main] INFO  api.test.UserTests -*************** retrieved user *******************
+2025-03-15 18:18:41 [main] INFO  api.test.UserTests -*************** updating user *******************
+2025-03-15 18:18:43 [main] INFO  api.test.UserTests -*************** user updated *******************
+2025-03-15 18:18:43 [main] INFO  api.test.UserTests -*************** deleting user *******************
