@@ -1,7 +1,8 @@
 package api.test;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+=======
+>>>>>>> fb04415ecddab95c78b667871a9029b2ba54c3b8
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -47,8 +48,10 @@ public class UserTests {
 		
 		Assert.assertEquals(response.getStatusCode(), 200);
 		
+
 		logger.info("*************** user creatd *******************");
 		
+
 	}
 	
 	@Test(priority=2)
@@ -58,6 +61,9 @@ public class UserTests {
 		response.then().log().all();
 		Assert.assertEquals(response.getStatusCode(), 200);
 		logger.info("*************** retrieved user *******************");
+		Response response = UserEndpoints.readUser(this.userpayload.getUsername());
+		response.then().log().all();
+		Assert.assertEquals(response.getStatusCode(), 200);
 	}
 	
 	@Test(priority=3)
@@ -88,6 +94,9 @@ public class UserTests {
 		response.then().log().body();
 		Assert.assertEquals(response.getStatusCode(), 200);
 		logger.info("*************** user deleted *******************");
+		Response response = UserEndpoints.deleteUser(this.userpayload.getUsername());
+		response.then().log().body();
+		Assert.assertEquals(response.getStatusCode(), 200);
 		
 	}
 	
